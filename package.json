@@ -1,0 +1,65 @@
+{
+  "name": "vue-image-lightbox",
+  "description": "A Vue.js package to display an image gallery lightbox",
+  "version": "3.0.0",
+  "author": "Nguyen Thien Dzung <dzungnguyenvn@outlook.com>",
+  "license": "MIT",
+  "main": "dist/vue-image-lightbox.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --config build/webpack.dev.conf.js",
+    "build": "rimraf dist && webpack --progress --hide-modules --config build/webpack.prod.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pexea12/vue-image-lightbox"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "lightbox",
+    "gallery",
+    "image gallery",
+    "image lightbox"
+  ],
+  "bugs": {
+    "url": "https://github.com/pexea12/vue-image-lightbox/issues"
+  },
+  "homepage": "https://github.com/pexea12/vue-image-lightbox",
+  "devDependencies": {
+    "babel-core": "^6.0.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.0.0",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-runtime": "^6.0.0",
+    "css-loader": "^0.23.0",
+    "eslint": "^1.10.3",
+    "eslint-friendly-formatter": "^1.2.2",
+    "eslint-loader": "^1.2.0",
+    "extract-text-webpack-plugin": "^0.9.1",
+    "file-loader": "^0.8.4",
+    "function-bind": "^1.0.2",
+    "html-webpack-plugin": "^1.7.0",
+    "inject-loader": "^2.0.1",
+    "json-loader": "^0.5.4",
+    "rimraf": "^2.5.0",
+    "url-loader": "^0.5.7",
+    "vue": "2.1.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^9.0.0",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "vue": "^2.1.10",
+    "vue-scrollTo": "^2.2.0",
+    "vue2-scrollspy": "^1.1.1"
+  }
+}
